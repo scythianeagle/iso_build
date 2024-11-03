@@ -24,7 +24,7 @@ jobs:
     needs: [prepare-release]
     strategy:
       matrix:
-        EDITION: [gnome,kde]
+        EDITION: [gnome]
         BRANCH: [stable]
         SCOPE: [minimal]
     steps:
